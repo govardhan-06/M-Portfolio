@@ -12,7 +12,7 @@ type Experience = {
   loc_type: string;
   start: string;
   end: string;
-  currently_working: boolean;
+  curr_work: boolean;
 };
 
 // Fetch experience from Supabase
@@ -39,6 +39,7 @@ const ExperienceSection = async () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {experience && experience.length > 0 ? (
             experience.map((exp) => {
+              console.log(exp);
               return (
                 <ExperienceCard
                   key={exp.id}

@@ -3,13 +3,13 @@ import ProjectCard from './ProjectCard';
 import { supabase } from '../../lib/supabase';
 
 type Project = {
-  id;
+  id:number;
   name: string;
   desc: string;
-  repo_link: string | null;
+  repo_link: string;
   start: string;
   end: string;
-  contributor: string | null;
+  contributor: string;
 };
 
 // Fetch projects from Supabase
