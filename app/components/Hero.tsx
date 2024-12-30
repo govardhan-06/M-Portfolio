@@ -31,17 +31,17 @@ function Hero() {
               <br />
               I thrive on expanding my knowledge through hackathons, community engagement, and challenging projects. With a focus on clean code, user-centric design, and emerging technologies, I aim to deliver impactful solutions while staying ahead in this fast-evolving field.
             </p>
-            {/* Call to Action Button */}
+            {/* Call to Action Button
             <a
               href="#projects"
               className="inline-block mt-6 px-8 py-3 text-white bg-black rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300"
             >
               View My Work
-            </a>
+            </a> */}
           </div>
 
           {/* Right Section (Image) */}
-          <div className="lg:w-1/2 mt-6 lg:mt-0 lg:pl-4">
+          <div className="lg:w-1/3 mt-6 lg:mt-0 lg:pl-4">
             <div className="w-56 h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden mx-auto">
               <Image 
                 src="/profile.jpg"
