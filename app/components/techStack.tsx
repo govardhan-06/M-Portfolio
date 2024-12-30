@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const techStacks = [
     { name: 'Apache Cassandra', logo: '/apache_cassandra-icon.svg' },
@@ -44,9 +45,11 @@ const TechStack: React.FC = () => {
               key={tech.name}
               className="flex flex-col items-center justify-center bg-white border border-gray-200 p-4 rounded-lg shadow-md"
             >
-              <img
+              <Image
                 src={tech.logo}
                 alt={tech.name}
+                width={64}
+                height={64}
                 className="w-16 h-16 object-contain mb-4"
               />
               <p className="text-black text-sm font-medium">{tech.name}</p>

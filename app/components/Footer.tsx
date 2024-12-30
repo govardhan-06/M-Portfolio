@@ -8,7 +8,7 @@ function Footer() {
           {/* Left Section (Brief Message) */}
           <div className="text-center lg:text-left">
             <h3 className="text-xl font-semibold text-black">
-              Let's connect...
+              Let&rsquo; connect...
             </h3>
             <p className="text-sm text-gray-600 mt-2">
               Feel free to reach out for collaborations, projects, or just to connect.
