@@ -33,7 +33,7 @@ const ExperienceSection = async () => {
   const experience = await fetchExperience();
 
   return (
-    <section className="py-8 bg-gray-100">
+    <section className="py-8 bg-gray-100" id="experiences">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-black mb-6">Experience</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

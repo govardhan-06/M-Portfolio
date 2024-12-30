@@ -61,7 +61,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             ))}
           </ul>
         ) : (
-          <span className="text-gray-500">No contributors listed</span>
+          <span className="text-gray-500"> No contributors listed</span>
         )}
       </div>
 
