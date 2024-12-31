@@ -1,3 +1,4 @@
+import AchievementSection from "./components/AcheiveSection";
 import EducationSection from "./components/EduSection";
 import ExperienceSection from "./components/ExpSection";
 import GitHubContributions from "./components/Github";
@@ -8,12 +9,14 @@ import TechStack from "./components/techStack";
 export default function Home() {
   return (
     <div>
-      <Hero/>
-      <EducationSection/>
-      <GitHubContributions/>
-      <TechStack/>
-      <ProjectsSection/>
-      <ExperienceSection/>
+      <Hero />                   
+      <EducationSection />       
+      <ExperienceSection />    
+      <AchievementSection />     
+      <ProjectsSection />       
+      <GitHubContributions />    
+      <TechStack />             
     </div>
   );
 }
+

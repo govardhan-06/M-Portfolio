@@ -36,7 +36,7 @@ const techStacks = [
 
 const TechStack: React.FC = () => {
   return (
-    <section className="py-8 bg-gray-100">
+    <section className="py-8 bg-white" id="techstacks">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-black mb-6">Tech Stack</h2>
         <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-4">

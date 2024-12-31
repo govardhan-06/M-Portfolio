@@ -19,6 +19,8 @@ export default function Navbar() {
           <a href="#education" className="text-base text-dark-600 hover:text-slate-600">Education</a>
           <a href="#projects" className="text-base text-dark-600 hover:text-slate-600">Projects</a>
           <a href="#experiences" className="text-base text-dark-600 hover:text-slate-600">Experiences</a>
+          <a href="#achievements" className="text-base text-dark-600 hover:text-slate-600">Achievements</a>
+          <a href="#techstacks" className="text-base text-dark-600 hover:text-slate-600">Tech Stack</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -37,13 +39,19 @@ export default function Navbar() {
         <div className="lg:hidden mt-4">
           <ul className="space-y-4 text-center">
             <li>
-              <a href="#about" className="block text-lg text-dark-600 hover:text-slate-600">Education</a>
+              <a href="#education" className="block text-lg text-dark-600 hover:text-slate-600">Education</a>
             </li>
             <li>
               <a href="#projects" className="block text-lg text-dark-600 hover:text-slate-600">Projects</a>
             </li>
             <li>
               <a href="#experiences" className="block text-lg text-dark-600 hover:text-slate-600">Experiences</a>
+            </li>
+            <li>
+              <a href="#achievements" className="block text-lg text-dark-600 hover:text-slate-600">Achievements</a>
+            </li>
+            <li>
+              <a href="#techstacks" className="block text-lg text-dark-600 hover:text-slate-600">Tech Stacks</a>
             </li>
           </ul>
         </div>

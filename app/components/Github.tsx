@@ -3,7 +3,7 @@ import GitHubCalendar from 'react-github-calendar';
 
 const GitHubContributions: React.FC = () => {
   return (
-    <section className="py-8 bg-white">
+    <section className="py-8 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-black mb-6">GitHub Contributions</h2>
         <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md">
